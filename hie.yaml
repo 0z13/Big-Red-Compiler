@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "bigredcompiler:lib"
+
+    - path: "./app/Main.hs"
+      component: "bigredcompiler:exe:bigredcompiler-exe"
+
+    - path: "./app/Paths_bigredcompiler.hs"
+      component: "bigredcompiler:exe:bigredcompiler-exe"
+
+    - path: "./test"
+      component: "bigredcompiler:test:bigredcompiler-test"
